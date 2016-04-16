@@ -28,7 +28,9 @@ body {
 }
 
 #footer {
-    background: linear-gradient(80deg, #fff, #333);
+    background: linear-gradient(80deg, #000, #333);
+    margin: 0;
+    padding: 0;
 }
 
 ul.topnav {
