@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	height: 100%;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #44;
 	background: linear-gradient(80deg, #43D8A8, #BCBCEC);
