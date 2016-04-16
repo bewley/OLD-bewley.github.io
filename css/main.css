@@ -45,6 +45,7 @@ ul.topnav {
 
 ul.topnav li#topleft {
 	float: left;
+	font-size: 2em;
 	display: block;
 	color: white;
 	text-align: center;
