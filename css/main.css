@@ -3,7 +3,10 @@ body {
 	padding: 0;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #44;
-	background-image: https://unsplash.it/200/300/?random;
+	background: linear-gradient(80deg, #43D8A8, #BCBCEC);
+    background-size: 200%;
+    background-position: 100%;
+    animation: background-animation 10s ease infinite alternate;
 }
 
 #imwill {
