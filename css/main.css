@@ -29,9 +29,6 @@ body {
 
 #footer {
     background: linear-gradient(80deg, #fff, #333);
-    background-size: 200%;
-    background-position: 100%;
-    animation: background-animation 10s ease infinite alternate;		
 }
 
 }
