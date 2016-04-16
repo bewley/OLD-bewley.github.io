@@ -18,6 +18,7 @@ ul.topnav {
     overflow: hidden;
     background-color: #333;
     font-family: ;
+    opacity: .4; 
 }
 
 ul.topnav li#topleft {
