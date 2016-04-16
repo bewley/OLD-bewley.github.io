@@ -20,6 +20,8 @@ ul.topnav {
     font-family: ;
 }
 
+ul.topnav li #topleft {float: left;}
+
 ul.topnav li {float: right;}
 
 ul.topnav li a {
