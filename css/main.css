@@ -8,6 +8,8 @@ body {
     background-size: 200%;
     background-position: 100%;
     animation: background-animation 10s ease infinite alternate;
+    padding-bottom:200px;
+    position: relative;
 }
 
 .page-wrapper {
@@ -15,7 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    padding-bottom:200px;
+    
 }
 
 .inner-page-wrapper {
