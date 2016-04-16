@@ -40,3 +40,65 @@ ul.topnav li.right {float: right;}
     ul.topnav li.right, 
     ul.topnav li {float: none;}
 }
+
+.roll {
+  position: relative;
+  width: 640px;
+  height: 80px;
+  
+  cursor: default;
+  
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+
+  transform-style: preserve-3d;
+  overflow: hidden;
+}
+
+.roll__front {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
+  background-color: transparent;
+  z-index: 1;
+  opacity: 1;
+  transform: rotateX(0) translateY(0) translateZ(0);
+  transform-origin: center bottom;
+}
+
+.roll__back {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
+  background-color: transparent;
+  opacity: 0;
+  transform: rotateX(90deg) translateY(-100%) translateZ(0);
+  transform-origin: center top;
+}
+
+.roll__front,
+.roll__back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  transition: transform 280ms cubic-bezier(0, .2, .6, 1),
+              opacity 180ms linear;
+  backface-visibility: hidden;
+}
+
+.roll:hover {
+  .roll__front {
+    opacity: 0;
+    transform: rotateX(-90deg) translateY(100%);
+  }
+
+  .roll__back {
+    opacity: 1;
+    transform: rotateX(0deg) translateY(0px);
+  }
+}
