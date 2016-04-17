@@ -12,6 +12,15 @@ body {
     position: relative;
 }
 
+@keyframes background-animation {
+    0% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 0%;
+    }
+}
+
 .page-wrapper {
     display: flex;
     align-items: center;
