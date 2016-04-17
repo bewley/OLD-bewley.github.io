@@ -61,7 +61,7 @@ ul.topnav {
     opacity: .9; 
 }
 
-.topleft {
+ul.topnav li#topleft {
 	float: left;
 	display: block;
 	color: white;
