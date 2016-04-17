@@ -32,7 +32,8 @@ body {
 }
 
 #footer {
-    background: linear-gradient(80deg, #000, #333);
+   background-color: #333;
+   opacity: .9;
    position:absolute;
    bottom:0;
    width: 100%;
@@ -80,13 +81,6 @@ ul.topnav li.right {float: right;}
     ul.topnav li.right, 
     ul.topnav li {float: none;}
 }
-
-/*.fa-spin-hover:hover {*/
-/*  -webkit-animation: spin 2s infinite linear;*/
-/*  -moz-animation: spin 2s infinite linear;*/
-/*  -o-animation: spin 2s infinite linear;*/
-/*  animation: spin 2s infinite linear;*/
-/*}*/
 
 .fa-spin-hover:hover {
     animation: fa-spin 2s infinite linear;
