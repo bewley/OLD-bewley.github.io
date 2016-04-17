@@ -81,6 +81,13 @@ ul.topnav li.right {float: right;}
     ul.topnav li {float: none;}
 }
 
+.fa-spin-hover:hover {
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+
 .roll {
   position: relative;
   width: 640px;
