@@ -60,7 +60,7 @@ ul.topnav {
     opacity: .9; 
 }
 
-#topleft {
+.topleft {
 	float: left;
 	display: block;
 	color: white;
