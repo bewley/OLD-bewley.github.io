@@ -23,7 +23,7 @@ body {
 
 .page-wrapper {
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     min-height: 100vh;
 }
