@@ -184,12 +184,9 @@ ul.topnav li.right {float: right;}
     transform: translateY(-15px);
   }
 }
-body {
-  background: black;
-}
 
 .arrow {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 50%;
   margin-left: -20px;
