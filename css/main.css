@@ -33,7 +33,7 @@ body {
 }
 
 #contact {
-	background: linear-gradient(rgba(tomato, $opacity), rgba(crimson, $opacity)); /*linear-gradient(92deg,#703a95,#6481b5);*/
+	background: linear-gradient(92deg,#703a95,#6481b5); /*linear-gradient(rgba(tomato, $opacity), rgba(crimson, $opacity));*/
 	animation: background-animation 10s ease infinite alternate;
 	background-position: 100%;
 }
