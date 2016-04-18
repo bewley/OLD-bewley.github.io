@@ -15,24 +15,28 @@ body {
 #index {
 	background: linear-gradient(80deg, #43D8A8, #BCBCEC);
 	animation: background-animation 10s ease infinite alternate;
+	-webkit-animation: animation: background-animation 10s ease infinite alternate;
 	background-position: 100%;
 }
 
 #projects {
 	background: linear-gradient(49deg,#1ccea6,#2f61e2);
 	animation: background-animation 10s ease infinite alternate;
+	-webkit-animation: animation: background-animation 10s ease infinite alternate;
 	background-position: 100%;
 }
 
 #about {
 	background: radial-gradient(ellipse farthest-corner at center top, #cbf49a, #1ea623); /*--80deg, #b42644, #7d762--*/
 	animation: background-animation 10s ease infinite alternate;
+	-webkit-animation: animation: background-animation 10s ease infinite alternate;
 	background-position: 100%;
 }
 
 #contact {
 	background: linear-gradient(92deg,#703a95,#6481b5);
 	animation: background-animation 10s ease infinite alternate;
+	-webkit-animation: animation: background-animation 10s ease infinite alternate;
 	background-position: 100%;
 }
 
