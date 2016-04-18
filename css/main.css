@@ -108,7 +108,10 @@ ul.topnav li a {
     text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a:hover:not(.active) {
+	background-color: #111;
+	border-bottom: 3px solid #43D8A8;
+}
 
 ul.topnav li a.active {background-color: #43D8A8;}
 
