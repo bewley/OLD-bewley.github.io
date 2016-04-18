@@ -110,6 +110,9 @@ ul.topnav li a {
 
 ul.topnav li a:hover:not(.active) {
 	background-color: #111;
+}
+
+topnav li a:hover:not(.active) {
 	border-bottom: 3px solid #43D8A8;
 }
 
