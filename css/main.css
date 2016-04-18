@@ -93,7 +93,7 @@ ul.topnav li#topleft {
 	font-weight: 500;
 	font-size: 120%;
 	text-align: center;
-	padding: 12px 16px;
+	padding: 20px 16px -1px 16px;
 	text-decoration: none;
 }
 
