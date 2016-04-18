@@ -25,7 +25,7 @@ body {
 }
 
 #about {
-	background: linear-gradient(80deg, #b42644, #7d762);
+	background: linear-gradient(80deg, #43D8A8, #BCBCEC); /*--80deg, #b42644, #7d762--*/
 	animation: background-animation 10s ease infinite alternate;
 	background-position: 100%;
 }
