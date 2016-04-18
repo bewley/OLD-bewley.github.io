@@ -58,6 +58,7 @@ ul.topnav {
     background-color: #333;
     font-family: ;
     opacity: .9; 
+    position: fixed; /* Make it stick, even on scroll */
 }
 
 ul.topnav li#topleft {
