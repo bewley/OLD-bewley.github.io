@@ -10,7 +10,6 @@ body {
     animation: background-animation 10s ease infinite alternate;
     padding-bottom:200px;
     position: relative;
-    border: 1px solid black;
 }
 
 @keyframes background-animation {
