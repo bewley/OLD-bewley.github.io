@@ -40,7 +40,7 @@ body {
 	background-position: 100%;
 }
 
-@keyframes background-animation {
+@-webkit-keyframes background-animation {
     0% {
         background-position: 100%;
     }
