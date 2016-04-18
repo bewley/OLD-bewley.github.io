@@ -59,6 +59,7 @@ ul.topnav {
     font-family: ;
     opacity: .9; 
     position: fixed; /* Make it stick, even on scroll */
+    width: 100%;
 }
 
 ul.topnav li#topleft {
