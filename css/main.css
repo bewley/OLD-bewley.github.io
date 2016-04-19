@@ -1,15 +1,15 @@
 body {
 	margin: 0;
 	padding: 0;
-	height: 100%;
+	/*height: 100%;*/
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #44;
 	/*background: linear-gradient(80deg, #43D8A8, #BCBCEC);*/
-    background-size: 200%;
+    /*background-size: 200%;*/
     /*background-position: 100%;*/
     /*animation: background-animation 10s ease infinite alternate;*/
     /*padding-bottom:200px;*/
-    position: relative;
+    /*position: relative;*/
 }
 
 #index {
@@ -62,7 +62,6 @@ body {
     /*@include respond-to(custom, 540px) {*/
     /*    font-size: 24px;*/
     /*}*/
-
 }
 
 h1 {
