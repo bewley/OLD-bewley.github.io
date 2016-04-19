@@ -19,7 +19,8 @@ body {
 }
 
 #projects {
-	background: linear-gradient(49deg,#1ccea6,#2f61e2);
+	background: radial-gradient(ellipse farthest-corner at center top, #1ccea6,#2f61e2);
+	/*linear-gradient(49deg,#1ccea6,#2f61e2);*/
 	animation: background-animation 10s ease infinite alternate;
 	background-position: 100%;
 }
