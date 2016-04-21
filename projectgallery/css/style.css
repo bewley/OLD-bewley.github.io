@@ -30,7 +30,7 @@ body {
     height: auto;
   }
 
-    &:hover {
+    .gallery-item:hover {
       img, .overlay{
         transform: translateY(-20px);
         background: linear-gradient(180deg, #1ea623, #cbf49a, #fff, #fff);
