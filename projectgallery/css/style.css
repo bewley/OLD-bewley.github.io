@@ -51,9 +51,9 @@ body {
   font-size: 1.2em;
   font-weight: 600;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  letter-spacing: 0.03vw;
+  /*letter-spacing: 0.03vw;*/
   display: block;
-  letter-spacing: 0.08em;
+  /*letter-spacing: 0.08em;*/
 }
 .overlay span.tags {
   font-weight: 100;
