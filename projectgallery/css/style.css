@@ -1,5 +1,5 @@
 body {
-  background: radial-gradient(ellipse farthest-corner at center top, #fff, #1ea623);
+  background: radial-gradient(ellipse farthest-corner at center top, #fff, #4684ee);  /* 1ea623 */
 }
 .container > h1 {
   color: #1ea623;
