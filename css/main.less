@@ -1,0 +1,317 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    color: white;
+  	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.section-title {
+  margin-bottom: 150px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 30px;
+  transition: font-size 0.5s ease-in-out, color 0.5s !important;
+}
+
+.navbar-default {
+  background: #16171C;
+  border: transparent;
+  .fa {
+    color: #777;
+  }
+}
+
+.nav li a:hover {
+  .fa {
+    color: #333;
+  }
+  color: #333 !important;
+  }
+
+.btn:hover {
+  background: #fff;
+  .fa {
+    color: #333;
+  }
+  }
+
+.btn {
+  margin: 10px;
+  background: #777;
+}
+
+.nav-brand-smaller {
+  font-size: 16px;
+  transition: font-size 0.5s ease-in-out;
+}
+
+.navbar-transparent {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+    .fa {
+    color: #fff;
+    transition: color 0.5s ease-in-out;
+  }
+  .navbar-brand{
+      color: #fff !important;
+      transition: color 0.5s ease-in-out;
+  }
+  .navbar-right a{
+    color: #fff !important;
+    transition: color 0.5s ease-in-out;
+  }
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 40vh;
+    text-align: center;
+    background: #fff;
+  .intro-brand {
+  font-weight: 700;
+  // text-transform: uppercase;
+  color: white;
+  font-size: 6em;
+}
+  .intro-strapline {
+  color: white;
+  font-size: 1.5em;
+}
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #16171C;
+  .about-me {
+    max-width: 600px;
+  }
+  .about-me-list {
+    text-align: left;
+    text-size: 1.5em;
+  }
+}
+
+.projects-section {
+    min-height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #333;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+// Backgrounds
+.fixed-bg {
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  // min-width: 100%;
+}
+
+.bg-1 {
+  background-image: url("https://images.unsplash.com/photo-1453227588063-bb302b62f50b?crop=entropy&fit=crop&fm=jpg&h=800&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1450");
+}
+
+.bg-4 {
+  background-image: url("https://images.unsplash.com/reserve/wPCyys8TPCHY3GXm2N2D_ssp_inthewoods_1.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=7de4e7cb3e2ed0d865cd3d3156292a2c");
+}
+
+.bg-2 {
+  background-image: url("https://images.unsplash.com/photo-1437075130536-230e17c888b5?crop=entropy&fit=crop&fm=jpg&h=800&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1450");
+}
+
+.bg-3 {
+  background-image: url("https://images.unsplash.com/photo-1423958950820-4f2f1f44e075?crop=entropy&fit=crop&fm=jpg&h=800&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1450");
+}
+
+// Lines
+.line1 {
+	display: block;
+	height: 12px;
+	background: #43D8A8;
+background: -moz-linear-gradient(left, #43D8A8 0%, #BCBCEC 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#43D8A8), color-stop(100%,#BCBCEC));
+background: -webkit-linear-gradient(left, #43D8A8 0%,#BCBCEC 100%);
+background: -o-linear-gradient(left, #43D8A8 0%,#BCBCEC 100%);
+background: -ms-linear-gradient(left, #43D8A8 0%,#BCBCEC 100%);
+background: linear-gradient(to right, #43D8A8 0%,#BCBCEC 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#43D8A8', endColorstr='#BCBCEC',GradientType=1 );
+}
+.line2 {
+	display: block;
+	height: 12px;
+	background: #2f61e2;
+background: -moz-linear-gradient(left, #2f61e2 0%, #1ccea6 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#2f61e2), color-stop(100%,#1ccea6));
+background: -webkit-linear-gradient(left, #2f61e2 0%,#1ccea6 100%);
+background: -o-linear-gradient(left, #2f61e2 0%,#1ccea6 100%);
+background: -ms-linear-gradient(left, #2f61e2 0%,#1ccea6 100%);
+background: linear-gradient(to right, #2f61e2 0%,#1ccea6 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f61e2', endColorstr='#1ccea6',GradientType=1 );
+}
+.line3 {
+	display: block;
+	height: 12px;
+  background: -webkit-linear-gradient(90deg, #cbf49a 10%, #1ea623 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #cbf49a 10%, #1ea623 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #cbf49a 10%, #1ea623 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #cbf49a 10%, #1ea623 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #cbf49a 10%, #1ea623 90%); /* W3C */
+        
+}
+.line4 {
+	display: block;
+	height: 12px;
+	 background: -webkit-linear-gradient(90deg, #703a95 10%, #1ea623 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #6481b5 10%, #703a95 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #6481b5 10%, #703a95 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #6481b5 10%, #703a95 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #6481b5 10%, #703a95 90%); /* W3C */
+}
+
+// Bouncing arrow
+i {
+  display: block;
+  color: #fff;
+}
+.arrow {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -20px;
+  width: 40px;
+  height: 60px;
+}
+  
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.gallery-item {
+  background: #000;
+  overflow: hidden;
+  padding: 0;
+  transition: all 200ms;
+  position: relative;
+  img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    transition: opacity 400ms;
+    position: relative;
+    z-index:1;
+  }
+}
+
+.gallery-item:hover{
+  img {
+    opacity: 0.2;
+    transition: opacity 400ms;
+  }
+  .overlay {
+   display: block; 
+   transition: display 400ms;
+  }
+}
+
+.overlay {
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    margin: 15px;
+    line-height: 90%;
+    text-align: left;
+    font-size: 4em;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: none;
+    transition: display 400ms;
+  }
