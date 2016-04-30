@@ -1,5 +1,5 @@
 $(document).ready(function(){
-        $(".navbar").fadeIn("slow");
+        $(".navbar").slideDown("slow");
 });
 
 //jQuery to collapse the navbar on scroll
