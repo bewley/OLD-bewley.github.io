@@ -103,11 +103,13 @@ of those sections to manage the look and feel of the site. */
   background: #16171C;
 }
 .about-section .about-me {
-  max-width: 600px;
+  max-width: 800px;
+  text-align: left;
+  margin:auto;
+  text-size: 1.5em;
 }
 .about-section .about-me-list {
-  text-align: left;
-  text-size: 1.5em;
+  text-align: left
 }
 .projects-section {
   min-height: 100%;
