@@ -4,7 +4,7 @@ setTimeout(
 $(document).ready(function(){
         $(".navbar").fadeIn("slow");
 });
-}, 5000);
+}, 1000);
 
 //jQuery to collapse the navbar on scroll
 var header_height = 500;//$('.navbar').height();
