@@ -2,9 +2,9 @@ setTimeout(
   function() 
   {
 $(document).ready(function(){
-        $(".navbar").fadeIn("slow");
+        $(".navbar").fadeIn(2000);
 });
-}, 1000);
+}, 2000);
 
 //jQuery to collapse the navbar on scroll
 var header_height = 500;//$('.navbar').height();
