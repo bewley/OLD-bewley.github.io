@@ -1,3 +1,7 @@
+$(document).ready(function(){
+        $(".navbar").fadeIn("slow");
+});
+
 //jQuery to collapse the navbar on scroll
 var header_height = 500;//$('.navbar').height();
 var intro_height = 30;//$('.intro-section').height();
