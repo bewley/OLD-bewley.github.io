@@ -1,8 +1,6 @@
-
-
 //jQuery to collapse the navbar on scroll
-var header_height = $('.navbar').height();
-var intro_height = $('.intro-section').height();
+var header_height = 800px;//$('.navbar').height();
+var intro_height = 30px;//$('.intro-section').height();
 var offset_val = intro_height + header_height;
 console.log(header_height);
 console.log(intro_height);
