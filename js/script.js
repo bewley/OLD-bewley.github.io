@@ -1,13 +1,11 @@
-$(document).ready(
+
 
 //jQuery to collapse the navbar on scroll
 var header_height = $('.navbar').height();
 var intro_height = $('.intro-section').height();
 var offset_val = intro_height + header_height;
-
-);
     
-$(window).scroll(function() {
+$(document).ready($(window).scroll(function() {
   var scroll_top = $(window).scrollTop();
     if (scroll_top >= offset_val) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
@@ -19,6 +17,7 @@ $(window).scroll(function() {
         $(".navbar-brand").removeClass("nav-brand-smaller");
     }
 });
+);
 
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
