@@ -78,9 +78,6 @@ html {
     padding: 0;
   }
 }
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
-of those sections to manage the look and feel of the site. */
 .intro-section {
   height: 100%;
   padding-top: 40vh;
@@ -281,7 +278,7 @@ i {
 .gallery-item img {
   width: 100%;
   height: auto;
-  opacity: 0.5;
+  /*opacity: 0.5;*/
   transition: opacity 400ms;
   position: relative;
   z-index: 1;
