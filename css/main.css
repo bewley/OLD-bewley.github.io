@@ -12,6 +12,11 @@ html {
 .section-title {
   margin-bottom: 150px;
 }
+
+.navbar {
+  display:none;
+}
+
 .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
