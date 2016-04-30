@@ -1,17 +1,18 @@
 //jQuery to collapse the navbar on scroll
-var header_height  = $('.navbar').height(),
-    intro_height    = $('.intro-section').height(),
-    offset_val = intro_height + header_height;
+var header_height = $('.navbar').height();
+var intro_height = $('.intro-section').height();
+var offset_val = intro_height + header_height;
+    
 $(window).scroll(function() {
   var scroll_top = $(window).scrollTop();
     if (scroll_top >= offset_val) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
-            $(".navbar-fixed-top").removeClass("navbar-transparent");
-      $(".navbar-brand").addClass("nav-brand-smaller");
+        $(".navbar-fixed-top").removeClass("navbar-transparent");
+        $(".navbar-brand").addClass("nav-brand-smaller");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
-      $(".navbar-fixed-top").addClass("navbar-transparent");
-      $(".navbar-brand").removeClass("nav-brand-smaller");
+        $(".navbar-fixed-top").addClass("navbar-transparent");
+        $(".navbar-brand").removeClass("nav-brand-smaller");
     }
 });
 
