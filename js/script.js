@@ -1,7 +1,11 @@
+$(document).ready(
+
 //jQuery to collapse the navbar on scroll
 var header_height = $('.navbar').height();
 var intro_height = $('.intro-section').height();
 var offset_val = intro_height + header_height;
+
+);
     
 $(window).scroll(function() {
   var scroll_top = $(window).scrollTop();
