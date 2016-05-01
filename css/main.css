@@ -304,4 +304,5 @@ i {
   text-transform: uppercase;
   display: none;
   transition: display 400ms;
+  z-index: 1;
 }
