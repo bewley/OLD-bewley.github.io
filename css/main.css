@@ -294,7 +294,7 @@ i {
 .gallery-item:hover .projectlink {
   z-index: 1;
   position:relative;
-  display: block;
+  display: inline;
   transition: display 400ms;
 }
 
