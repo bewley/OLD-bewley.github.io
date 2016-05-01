@@ -306,6 +306,6 @@ i {
   transition: display 400ms;
 }
 
-.overlay a{
+.overlay .projectlink{
     z-index: 1;
 }
