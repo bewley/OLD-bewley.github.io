@@ -291,6 +291,9 @@ i {
   display: block;
   transition: display 400ms;
 }
+.gallery-item:hover .projectlink {
+  z-index: 1;
+}
 .overlay {
   position: absolute;
   width: 100%;
@@ -304,8 +307,4 @@ i {
   text-transform: uppercase;
   display: none;
   transition: display 400ms;
-}
-
-.overlay .projectlink{
-    z-index: 1;
 }
