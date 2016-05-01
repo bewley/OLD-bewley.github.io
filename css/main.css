@@ -293,6 +293,7 @@ i {
 }
 .gallery-item:hover .projectlink {
   z-index: 1;
+  position:relative;
 }
 .overlay {
   position: absolute;
