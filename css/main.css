@@ -294,6 +294,12 @@ i {
 .gallery-item:hover .projectlink {
   z-index: 1;
   position:relative;
+  transition: display 400ms;
+}
+
+.projectlink {
+  position:relative;
+  transition: display 400ms;
 }
 .overlay {
   position: absolute;
