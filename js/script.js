@@ -3,6 +3,9 @@ setTimeout(
   {
 $(document).ready(function(){
         $(".navbar").fadeIn(2000);
+          $('.type-it').typeIt({
+    content: 'Boy Meets Product'
+  });
 });
 }, 2000);
 
@@ -44,10 +47,3 @@ $(window).scroll(function(){
   $(".intro-section .col-lg-12").css("opacity", 1 - $(window).scrollTop() / 250); 
   //250 is fade pixels
   });
-
-// intro strapline
-$(document).ready(function($) {
-  $('.type-it').typeIt({
-    content: 'Boy Meets Product'
-  });
-});
