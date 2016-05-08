@@ -46,7 +46,7 @@ $(window).scroll(function(){
   });
 
 // intro strapline
-jQuery(document).ready(function($) {
+$(document).ready(function($) {
   $('.type-it').typeIt({
     content: 'Boy Meets Product'
   });
