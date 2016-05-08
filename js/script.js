@@ -3,11 +3,12 @@ setTimeout(
   {
 $(document).ready(function(){
         $(".navbar").fadeIn(2000);
+});
+}, 2000);
+
           $('.type-it').typeIt({
     content: 'Boy Meets Product'
   });
-});
-}, 2000);
 
 //jQuery to collapse the navbar on scroll
 var header_height = 500;//$('.navbar').height();
