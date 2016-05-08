@@ -44,3 +44,10 @@ $(window).scroll(function(){
   $(".intro-section .col-lg-12").css("opacity", 1 - $(window).scrollTop() / 250); 
   //250 is fade pixels
   });
+
+// intro strapline
+jQuery(document).ready(function($) {
+  $('.type-it').typeIt({
+    content: 'Boy Meets Product'
+  });
+});
