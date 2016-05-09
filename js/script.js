@@ -6,12 +6,6 @@ $(document).ready(function(){
 });
 }, 2000);
 
-$(window).scroll(function() {
-$('.type-it').typeIt({
-    content: 'Boy Meets Product'
-});
-});
-
 //jQuery to collapse the navbar on scroll
 var header_height = 500;//$('.navbar').height();
 var intro_height = 30;//$('.intro-section').height();
