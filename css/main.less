@@ -308,16 +308,22 @@ i {
     width: 100%;
     height: auto;
     //opacity: 0.5;
-    transition: opacity 400ms;
+    transition: all 400ms;
     position: relative;
     z-index:1;
+    overflow: hidden;
   }
 }
 
 .gallery-item:hover{
   img {
     opacity: 0.2;
-    transition: opacity 400ms;
+    transition: all 400ms;
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* IE 9 */
+    -o-transform:scale(1.5); /* Opera */
+    transform:scale(1.5);
   }
   .overlay {
    display: block; 
