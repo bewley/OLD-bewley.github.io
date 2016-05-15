@@ -349,7 +349,8 @@ i {
 @c-shirt: #006277; //#7A7A7A
 
 .circle{
-    position:absolute;
+    position:relative;
+    display: center;
     font-size: 15px;
     width:20em; height:20em;
     margin:0 auto;
@@ -361,11 +362,10 @@ i {
 }
 .circle:after{
     content:'';
-    position:absolute;
-    // left:50%; top:50%;
+    position: absolute;
     border-radius:100%;
     width:20em; height:20em;
-    box-shadow: 0px 0px 0px 2000px #16171C;
+    box-shadow: 0px 0px 0px 200px #16171C;
 }
 
 /* Character body */
